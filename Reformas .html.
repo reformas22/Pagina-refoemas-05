@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Reformas modernas y profesionales. Remodelaciones de cocina, baño, pintura y más. Confianza, calidad y experiencia en cada proyecto.">
+  <meta name="keywords" content="reformas, cocina, baño, pintura, remodelación, hogar, interiores, reformas modernas">
+  <meta name="author" content="Reformas Modernas">
+  <title>Reformas Modernas | Calidad y Confianza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1586105251261-72a756497a12?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 0 20px;
+    }
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #005f73;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #94d2bd;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .section img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      display: block;
+      margin: 15px 0;
+    }
+    footer {
+      background: #001219;
+      color: #94d2bd;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    .whatsapp-float img {
+      height: 60px;
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Reformas Modernas</h1>
+  <nav>
+    <a href="#banios">Baños</a>
+    <a href="#pintura">Pintura</a>
+  </nav>
+</header>
+
+<div class="hero">
+  Reformas con estilo profesional y acabados impecables
+</div>
+
+<main>
+  <section id="banios" class="section">
+    <h2>Reformas de Baños</h2>
+    <p>Transformamos tu baño en un espacio moderno, funcional y elegante.</p>
+    <img src="https://images.unsplash.com/photo-1615873968403-b249c61c26f1?auto=format&fit=crop&w=1470&q=80" alt="Baño moderno elegante" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1598908311572-cd3c46d5f188?auto=format&fit=crop&w=1470&q=80" alt="Ducha reformada" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1600566753051-b53e2ec27c6c?auto=format&fit=crop&w=1470&q=80" alt="Reforma baño blanco" loading="lazy">
+  </section>
+
+  <section id="pintura" class="section">
+    <h2>Servicios de Pintura</h2>
+    <p>Acabados de pintura profesional que renuevan tus espacios por completo.</p>
+    <img src="https://images.unsplash.com/photo-1600359734811-30d98c9e2b2b?auto=format&fit=crop&w=1470&q=80" alt="Pintor trabajando interior" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1581091012184-7e0cdfbb679e?auto=format&fit=crop&w=1470&q=80" alt="Pintura color cálido" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1581579185169-270d9780c0c6?auto=format&fit=crop&w=1470&q=80" alt="Pintura moderna en salón" loading="lazy">
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Reformas Modernas. Todos los derechos reservados.
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="whatsapp-float" href="https://wa.me/34684327148" target="_blank" aria-label="Chatear por WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+</a>
+</body>
+</html>
